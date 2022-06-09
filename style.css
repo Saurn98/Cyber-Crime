@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@700&display=swap");
+* {
+  font-family: 'Tai Heritage Pro', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #D8CEC3;
+}
+
+.nav-container {
+  background-color: black;
+  top: 0;
+  padding: 30px 20px 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.5rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-container button {
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.nav-container button::after {
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  display: block;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.nav-container button:hover::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  display: block;
+}
+
+.heading-image {
+  width: 100vh;
+  margin: 20px 20px 20px 50px;
+}
+
+.heading-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info {
+  margin: 30px 10px 10px 50px;
+}
+
+.info .heading {
+  cursor: pointer;
+  font-size: 2.9rem;
+  font-weight: 900;
+}
+
+.info .about {
+  width: 130vh;
+}
+
+.info .about p {
+  color: black;
+  font-size: 20px;
+}
+
+.info .heading {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.info .heading p:hover {
+  text-decoration: underline;
+}
+
+.info-types {
+  margin: 30px 10px 10px 50px;
+}
+
+.info-types .heading {
+  cursor: pointer;
+  font-size: 2.9rem;
+  font-weight: 900;
+}
+
+.info-types .heading-types {
+  width: 130vh;
+  margin-left: 10px;
+}
+
+.info-types .heading-types p {
+  font-size: 2rem;
+}
+
+.info-types .about {
+  width: 130vh;
+}
+
+.info-types .about p {
+  color: black;
+  font-size: 20px;
+}
+
+.info-types .about-types {
+  margin-left: 20px;
+  width: 130vh;
+}
+
+.info-types .about-types p {
+  color: black;
+  font-size: 20px;
+}
+
+.info-types .heading {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.info-types .heading p:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
